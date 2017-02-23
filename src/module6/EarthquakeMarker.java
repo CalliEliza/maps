@@ -5,9 +5,7 @@ import processing.core.PConstants;
 import processing.core.PGraphics;
 
 /** Implements a visual marker for earthquakes on an earthquake map
- * 
- * @author UC San Diego Intermediate Software Development MOOC team
- *
+
  */
 public abstract class EarthquakeMarker extends CommonMarker implements Comparable<EarthquakeMarker>
 {

@@ -264,7 +264,7 @@ public class ParseFeed {
 			for(int i = columns.length - 1; i > 3; i--) {
 				
 				// check if value exists for year
-				if(!columns[i].equals("..")) {
+				if(!columns[i].equals("")) {
 					lifeExpMap.put(columns[3], Float.parseFloat(columns[i]));
 					
 					// break once most recent data is found

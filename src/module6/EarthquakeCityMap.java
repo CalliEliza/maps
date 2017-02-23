@@ -1,4 +1,4 @@
-package src.module6;
+package module6;
 
 import java.util.*;
 
